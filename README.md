@@ -13,6 +13,17 @@ MinadoTweets/
 ## Requisitos
 - Python 3.13 o superior
 - Biblioteca twikit
+- Cookies del navegador con una cuenta de X abierta
+
+## Extracción de cookies
+```
+- En un navegador iniciar sesión en X
+- Ctrl + Shift + I
+- Dar click en la pestaña 'Application'
+- Posteriormente en 'Cookies'
+- Copiar los valores de 'auth_token' y 'ct0' necesarios en -main.py-
+```
+Nota: Esto es necesario hacerlo una sola vez, las cookies pueden servir incluso si se cierra sesión o el navegador. 
 
 ## Funcionalidades
 - Extracción de tweets recientes usando twikit (sin necesidad de la API X)
