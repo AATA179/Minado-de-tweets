@@ -34,4 +34,4 @@ def guardar_tweets (registros: List[Dict[str, str]])-> None:
     with open(archivo_json, "w", encoding="utf-8") as archivo:
         json.dump(tweets, archivo, indent=4, ensure_ascii=False)
 
-    print("Tweets agregados correctamente")
+    print(f"{len(registros)} Tweets agregados correctamente")
