@@ -2,7 +2,11 @@
 Este proyecto permite la extracción de tweets usando autenticación por cookies.
 
 ## Estructura del proyecto
-
+MinadoTweets/
+├── main.py # Flujo principal del programa
+├── autenticar.py # Crea un cliente autenticado con las cookies ingresadas
+├── extraer.py # Busca tweets con un 'query' ingresado y los extrae con twikit
+├── guardar.py # Guarda los datos en archivos JSON
 MinadoTweets/
 ├── main.py       # Flujo principal del programa
 ├── autenticar.py # Crea un cliente autenticado con las cookies ingresadas
