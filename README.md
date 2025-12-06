@@ -42,7 +42,7 @@ Nota: Esto es necesario hacerlo una sola vez, las cookies pueden servir incluso 
 
 ## Limitaciones
 - La cuenta de X con la que se sacaron las cookies puede quedar limitada (bloqueo de ciertas funciones dentro de X, como publicar o reaccionar a publicaciones)
-- El programa puede correrse una vez cada 15 minutos
+- El programa puede correrse una vez cada 20 minutos
 - Twikit puede generar bloqueos temporales en la cuenta de X si se hacen muchas consultas seguidas
 
 ## NOTA
